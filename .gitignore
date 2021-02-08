@@ -11,3 +11,7 @@ solo.iml
 /.settings/
 /.classpath
 /.project
+
+# properties
+src/main/resources/local.properties
+src/main/resources/latke.properties
