@@ -13,5 +13,4 @@ solo.iml
 /.project
 
 # properties
-src/main/resources/local.properties
-src/main/resources/latke.properties
+src/main/resources/*.properties
