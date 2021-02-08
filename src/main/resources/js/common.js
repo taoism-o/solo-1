@@ -261,10 +261,16 @@ window.Util = {
    */
   initDebugInfo: function () {
     console.log(
-      '%cSolo%c\n  🎸一款小而美的博客系统，专为程序员设计。\n\n  https://b3log.org/solo v' +
-      Label.version + '\n  Copyright © 2010-present',
-      'font-size:96px;color:#3b3e43', 'font-size:12px;color:#4285f4;')
-  },
+        '%cWelcome!%c\n' +
+        '(Finally you find here！🎉)\n' +
+        'My name is KevinCheng⛎, feel free to just call me Kevin❤.\n' +
+        "I'm a Chinese software developer, hoping know more friends from different any where😁.\n" +
+        "My github link: https://github.com/taoism-o 🆙.\n" +
+        '🎸Blog engine powered by Solo' + Label.version + ' © ' +
+        (new Date()).getFullYear() + " from B3log🆒\n" +
+        " Github link: https://github.com/88250/solo ."
+        , 'font-size:96px;color:#3b3e43', 'font-size:12px;color:rgba(111,156,232,91.38);'
+  )},
   /**
    * @description 注册 Service Work
    */
