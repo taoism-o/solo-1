@@ -6,7 +6,8 @@ RUN cd /tmp && mvn package -DskipTests -Pci -q && mv target/solo/* /opt/solo/ \
 && cp -f /tmp/src/main/resources/docker/* /opt/solo/
 
 FROM openjdk:8-alpine
-LABEL maintainer="Liang Ding<d@b3log.org>"
+#LABEL maintainer="Liang Ding<d@b3log.org>"
+LABEL maintainer="Taoism-One<taoism_one@163.com>"
 
 WORKDIR /opt/solo/
 COPY --from=MVN_BUILD /opt/solo/ /opt/solo/
