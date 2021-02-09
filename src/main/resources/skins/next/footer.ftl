@@ -23,6 +23,7 @@
         </div>
         <div class="fn-clear">
             &copy; ${year}
+            备案信息: <a href="http://beian.miit.gov.cn" target="_blank">皖ICP备18004772号-2</a>
             <a href="${servePath}">${blogTitle}</a>
             ${footerContent}
         </div>
